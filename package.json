@@ -1,10 +1,9 @@
 {
   "name": "cordova-xml",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Edit cordova config.xml from the command line or via API",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/mifi/cordova-xml.git"
@@ -34,7 +33,7 @@
     "cordova-xml": "cli.js"
   },
   "engines": {
-      "node": ">=4"
+    "node": ">=4"
   },
   "license": "MIT",
   "dependencies": {
