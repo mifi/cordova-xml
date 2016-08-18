@@ -19,6 +19,8 @@ function configxml(inFile) {
 
   return {
     setId: set.bind(null, '/w:widget/@id'),
+    setAndroidId: set.bind(null, '/w:widget/@android-packageName'),
+    setIosId: set.bind(null, '/w:widget/@ios-CFBundleIdentifier'),
     setVersion: set.bind(null, '/w:widget/@version'),
     setAndroidVersion: set.bind(null, '/w:widget/@android-versionCode'),
     setIosVersion: set.bind(null, '/w:widget/@ios-CFBundleVersion'),
