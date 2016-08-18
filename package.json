@@ -1,0 +1,45 @@
+{
+  "name": "cordova-xml",
+  "version": "1.0.0",
+  "description": "Edit cordova config.xml from the command line or via API",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mifi/cordova-xml.git"
+  },
+  "keywords": [
+    "config.xml",
+    "edit",
+    "config",
+    "cordova",
+    "ionic",
+    "widget",
+    "id",
+    "description",
+    "author",
+    "cli"
+  ],
+  "author": {
+    "name": "Mikael Finstad",
+    "email": "finstaden@gmail.com",
+    "url": "mifi.no"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "bin": {
+    "cordova-xml": "cli.js"
+  },
+  "engines": {
+      "node": ">=4"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^3.7.0",
+    "xmlpoke": "^0.1.12"
+  },
+  "devDependencies": {}
+}
